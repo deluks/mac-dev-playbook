@@ -1,10 +1,10 @@
 ---
 downloads: ~/.ansible-downloads/
 
-configure_dotfiles: no
+configure_dotfiles: yes
 configure_sudoers: no
 configure_terminal: no
-configure_osx: no
+configure_osx: yes
 
 dotfiles_repo: https://github.com/deluks/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
@@ -89,10 +89,8 @@ mas_installed_apps:
   - { id: 950145466, name: "Letterspace (1.7.2)" }
   - { id: 1026349850, name: "Copied (1.1.9)" }
   - { id: 425424353, name: "The Unarchiver (3.11.1)" }
-  - { id: 407963104, name: "Pixelmator (3.6)" }
   - { id: 443987910, name: "1Password (6.7)" }
   - { id: 880001334, name: "Reeder (3.0.4)" }
-  - { id: 847496013, name: "Deckset (1.8.1)" }
   - { id: 1091189122, name: "Bear (1.2.1)" }
   - { id: 935250717, name: "MonthlyCal (1.5)" }
   - { id: 913724705, name: "Disk Care (1.5.1)" }
