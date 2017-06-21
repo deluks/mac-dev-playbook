@@ -1,0 +1,96 @@
+---
+downloads: ~/.ansible-downloads/
+
+configure_dotfiles: no
+configure_sudoers: no
+configure_terminal: no
+configure_osx: no
+
+dotfiles_repo: https://github.com/deluks/dotfiles.git
+dotfiles_repo_accept_hostkey: yes
+dotfiles_repo_local_destination: ~/Public/dotfiles
+dotfiles_files:
+  - .bash_profile
+  - .inputrc
+  - .nanorc
+  - .peco
+  - .osx
+  - .zshrc
+
+homebrew_installed_packages:
+  # - ansible # Installed via Pip.
+  - cowsay
+  - cheat
+  - cuetools
+  - curl
+  - ffmpeg
+  - fzf
+  - git
+  - httping
+  - iperf
+  - imagemagick
+  - jq
+  - m-cli
+  - mas
+  - mtr
+  - nano
+  - ncftp
+  - nmap
+  - pdfgrep
+  - peco
+  - pick
+  - progress
+  - pup
+  - pv
+  - python3
+  - rename
+  - ripgrep
+  - shntool
+  - speedtest_cli
+  - ssh-copy-id
+  - tldr
+  - tree
+  - unrar
+  - wget
+  - yank
+  - youtube-dl
+  - zsh
+
+homebrew_taps:
+  - homebrew/core
+  - caskroom/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - dropbox
+  - google-chrome
+  - sublime-text
+  - tnefs-enough
+  - iina
+  - numi
+  - unpkg
+
+# See `geerlingguy.mas` role documentation for usage instructions.
+mas_email: ""
+mas_password: ""
+
+mas_installed_apps:
+  - { id: 1107421413, name: "1Blocker (1.3)" }
+  - { id: 950145466, name: "Letterspace (1.7.2)" }
+  - { id: 1026349850, name: "Copied (1.1.9)" }
+  - { id: 425424353, name: "The Unarchiver (3.11.1)" }
+  - { id: 407963104, name: "Pixelmator (3.6)" }
+  - { id: 443987910, name: "1Password (6.7)" }
+  - { id: 880001334, name: "Reeder (3.0.4)" }
+  - { id: 847496013, name: "Deckset (1.8.1)" }
+  - { id: 1091189122, name: "Bear (1.2.1)" }
+  - { id: 935250717, name: "MonthlyCal (1.5)" }
+  - { id: 913724705, name: "Disk Care (1.5.1)" }
+  - { id: 1160374471, name: "PiPifier (1.2.4)" }
+  - { id: 414209656, name: "Better Rename 9 (9.52)" }
+
+
+osx_script: "~/.osx --no-restart"
+
+# Glob pattern to ansible task files to run after all other tasks are finished.
+post_provision_tasks: []
