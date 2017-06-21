@@ -2,5 +2,5 @@
 - name: geerlingguy.dotfiles
 - name: geerlingguy.homebrew
 - name: geerlingguy.mas
-- name: danbohea.dock-items
+- name: fubarhouse.macdock
 - name: icopp.quick-look-plugins
