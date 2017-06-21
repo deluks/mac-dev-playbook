@@ -69,6 +69,16 @@ homebrew_cask_apps:
   - iina
   - numi
   - unpkg
+  - textual
+  - launchbar
+  - bitbar
+  - backblaze
+  - dropshare
+  - keyboard-maestro
+  - iterm2-beta
+  - safari-technology-preview
+  - pdfexpert
+  - appcleaner
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_email: ""
