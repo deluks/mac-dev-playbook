@@ -101,5 +101,35 @@ mas_installed_apps:
 
 osx_script: "~/.osx --no-restart"
 
+dockitems_disabled:
+  - Siri
+  - Launchpad
+  - Contacts
+  - Reminders
+  - Maps
+  - Photos
+  - FaceTime
+  - Pages
+  - Numbers
+  - Keynote
+  - iTunes
+  - iBooks
+  - App Store
+  - Terminal
+
+dockitems_enabled:
+  - name: Reeder
+    path: "/Applications/Reeder.app"
+    pos: 4
+  - name: Textual
+    path: "/Applications/Textual.app"
+    pos: 7
+  - name: Sublime Text
+    path: "/Applications/Sublime Text.app"
+    pos: 8
+  - name: iTerm
+    path: "/Applications/iTerm.app"
+    pos: 9
+
 # Glob pattern to ansible task files to run after all other tasks are finished.
 post_provision_tasks: []
