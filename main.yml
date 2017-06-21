@@ -20,6 +20,8 @@
     - role: geerlingguy.mas
       when: mas_installed_apps
       tags: ['mas']
+    - role: icopp.quick-look-plugins
+    - role: ansible-role-dock-items
 
   tasks:
     - include: tasks/ansible-setup.yml
